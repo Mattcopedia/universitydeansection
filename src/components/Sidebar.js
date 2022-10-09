@@ -77,8 +77,9 @@ export default function Sidebar() {
                     </button>
                     <div className="dropdown-content" onClick={() => setShowSidebar('-left-64')} >
                       <Link to="/activate">Activate</Link>
+                      <Link to="/register-student">Register Student</Link>
+                      <Link to="/course-reg-stats">Registration Stats</Link>
                       <Link to="/unblock">Unblock</Link>
-                      <Link to="/update-fees">fees</Link>
                       <Link to="/biodata-correction">Biodata Correction</Link>
                       <Link to="/reset-studentpassword">Reset Password</Link>
                       <Link to="/upload-student-doc">Upload Doc</Link>
@@ -102,7 +103,7 @@ export default function Sidebar() {
                       <Link to="/lecturer-list">Lecturer List</Link>
                       <Link to="/create-account">Create Account</Link>
                       <Link to="/lecturer-biodata">Biodata Correction</Link>
-                      <Link to="/amendment-approval">Amendment Approval</Link>
+                      <Link to="/reset-lecturer-password">Reset Password</Link>
                       <Link to="/result-upload-summary">Result Upload Summary</Link>
                     </div>
                   </div> 

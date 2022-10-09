@@ -81,6 +81,7 @@ import LecturerBiodataProfile from 'components/LecturerComponent/LecturerBiodata
 import CourseAllocation from 'components/LecturerComponent/CourseAllocation';
 import AmendmentApprovalList from 'components/LecturerComponent/AmendmentapprovalList';
 import AmendmentApproval from 'components/LecturerComponent/AmendmentApproval';
+import ResetLecturerPassword from 'components/LecturerComponent/LecturerPassword';
 
 
 
@@ -185,6 +186,7 @@ function App() {
             <Route exact path="/course-allocation" component={CourseAllocation} /> 
             <Route exact path="/amendment-approval" component={AmendmentApproval} /> 
             <Route exact path="/amendment-approval-list" component={AmendmentApprovalList} /> 
+            <Route exact path="/reset-lecturer-password" component={ResetLecturerPassword} /> 
             
            
          

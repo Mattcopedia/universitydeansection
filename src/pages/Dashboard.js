@@ -30,7 +30,7 @@ export default function Dashboard() {
                   <Text10>Welcome Back</Text10>
                   <Text20>🚀</Text20>
                 </FlexRow>
-                <Text30>HOD Name <br className="responsivemodal"></br> </Text30>
+                <Text30>Dean Name <br className="responsivemodal"></br> </Text30>
               </FlexColumn>  
 
 
@@ -133,7 +133,7 @@ export default function Dashboard() {
                   
   <div className="flex  justify-center text-6xl border-2 bg-gray-100 p-6 ">
                         
-              <NavLink to="/activate"> 
+              <NavLink to="/upload-student-doc"> 
                         <WhiteFlexColumnRoot1> 
                        <Image2 src={`https://file.rendit.io/n/RfZB8C0HwERiS7g1b1Qm.svg`} />
                         <Text2>Retrospective Student</Text2>
@@ -214,7 +214,7 @@ export default function Dashboard() {
                            <div className="flex  justify-center text-6xl border-2 bg-gray-100 p-6 ">
                         
                            
-                           <NavLink to="/editpassword"> 
+                           <NavLink to="/reset-lecturer-password"> 
                         <WhiteFlexColumnRoot1> 
                        <Image2 src={`https://file.rendit.io/n/M623RGZnE7ubrrLY83sk.svg`} />
                         <Text2>Password reset</Text2>

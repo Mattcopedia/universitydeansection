@@ -1027,11 +1027,11 @@ video {
 .pt-0{
 	padding-top: 0px;
 }
-.pl-9{
-	padding-left: 2.25rem;
-}
 .pl-14{
 	padding-left: 3.5rem;
+}
+.pl-9{
+	padding-left: 2.25rem;
 }
 .pl-7{
 	padding-left: 1.75rem;
@@ -1139,6 +1139,10 @@ video {
 .text-gray-600{
 	--tw-text-opacity: 1;
 	color: rgba(75, 85, 99, var(--tw-text-opacity));
+}
+.text-black{
+	--tw-text-opacity: 1;
+	color: rgba(0, 0, 0, var(--tw-text-opacity));
 }
 .underline{
 	text-decoration: underline;
